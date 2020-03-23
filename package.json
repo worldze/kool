@@ -1,12 +1,12 @@
 {
-  "name": "iptv",
+  "name": "kool",
   "scripts": {
     "test": "node scripts/test.js",
     "format": "node scripts/format.js",
     "generate": "node scripts/generate.js",
     "update-readme": "node scripts/update-readme.js"
   },
-  "author": "Arhey <free.arhey@gmail.com>",
+  "author": "unknows <unknown@gmail.com>",
   "private": true,
   "license": "MIT",
   "dependencies": {
