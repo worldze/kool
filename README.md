@@ -23,7 +23,5 @@
 		<tr><td align="left">UK</td><td align="right">10</td><td align="left" nowrap><code>https://worldze.github.io/kool/countries/uk.m3u</code></td><td align="left"><code>http://i.mjh.nz/nzau/epg.xml.gz</code></td></tr>	
 </table>
 
-## Resources
 
-I got the file from iptv-org.
 
