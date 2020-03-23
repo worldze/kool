@@ -3,7 +3,7 @@
 channels/ca.m3u
 #EXTINF:-1,USA
 channels/us.m3u
-#EXTINF:-1,South India
+#EXTINF:-1,Tamil
 channels/s_in.m3u
 #EXTINF:-1,India
 channels/in.m3u
@@ -13,3 +13,7 @@ channels/sp.m3u
 channels/kid.m3u
 #EXTINF:-1,Discovery
 channels/dis.m3u
+#EXTINF:-1,Uk
+channels/uk.m3u
+#EXTINF:-1,Weather
+channels/wea.m3u
