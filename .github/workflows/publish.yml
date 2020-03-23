@@ -40,7 +40,7 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v1.5.1
       env:
-        GITHUB_TOKEN: ${{ secrets.REPO_SCOPED_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.REPO_TOKEN }}
         COMMIT_MESSAGE: 'Update README.md'
         PULL_REQUEST_BRANCH: bot-patch
         PULL_REQUEST_TITLE: '[Bot] Update README.md'
