@@ -5,7 +5,6 @@ const ROOT_DIR = './.gh-pages'
 let list = {
   all: [],
   countries: {},
-///  languages: {}  categories: {}
 }
 
 function main() {
@@ -38,8 +37,6 @@ function parseIndex() {
   const root = helper.parsePlaylist('index.m3u')
 
   let countries = {}
-//  let languages = {}
-//  let categories = {}
 
   for(let rootItem of root.items) {
     const playlist = helper.parsePlaylist(rootItem.url)
