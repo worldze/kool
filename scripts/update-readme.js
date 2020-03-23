@@ -2,7 +2,6 @@ const helper = require('./helper')
 
 let output = {
   countries: [],
- // languages: [],  categories: []
 }
 
 function main() {
@@ -19,7 +18,6 @@ function parseIndex() {
   const root = helper.parsePlaylist('index.m3u')
 
   let countries = {}
- // let languages = {}  let categories = {}
   for(let rootItem of root.items) {
     const playlist = helper.parsePlaylist(rootItem.url)
     const countryName = rootItem.name
@@ -35,7 +33,7 @@ function parseIndex() {
         countries[countryCode] = { 
           country: countryName, 
           channels: 1, 
-          playlist: `<code>https://worldze.github.io/Nu/countries/${countryCode}.m3u</code>`, 
+          playlist: `<code>https://worldze.github.io/kool/countries/${countryCode}.m3u</code>`, 
           epg: countryEpg
         }
       }
@@ -46,7 +44,7 @@ function parseIndex() {
   }
 
   output.countries = Object.values(countries)
- // output.languages = Object.values(languages)  output.categories = Object.values(categories)
+
 }
 
 function generateCountriesTable() {
