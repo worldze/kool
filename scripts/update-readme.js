@@ -40,7 +40,7 @@ function parseIndex() {
 
       }
     }
-  }
+  
 
   output.countries = Object.values(countries)
 
