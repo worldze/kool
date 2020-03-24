@@ -17,3 +17,6 @@ Playlists by country
 		<tr><td align="left">Weather</td><td align="right">2</td><td align="left" nowrap><code>https://worldze.github.io/kool/countries/wea.m3u</code></td><td align="left"></td></tr>
 	</tbody>
 </table>
+
+## no work
+
