@@ -233,7 +233,7 @@ class Channel {
   _filterGroup(groupTitle) {
     if(!groupTitle) return ''
       
-    const supportedCategories = [ 'Auto' , 'Canada' , 'USA' , 'Tamil' , 'Sports' , 'Kids' , 'India' , 'Discovery' , 'Weather' 'UK' ]
+    const supportedCategories = [ 'Auto' , 'Canada' , 'USA' , 'Tamil' , 'Sports' , 'Kids' , 'India' , 'Discovery' , 'Weather' , 'UK' ]
     const groupIndex = supportedCategories.map(g => g.toLowerCase()).indexOf(groupTitle.toLowerCase())
 
     if(groupIndex === -1) {
