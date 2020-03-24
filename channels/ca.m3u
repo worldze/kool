@@ -1,4 +1,3 @@
-#EXTM3U
 #EXTM3U x-tvg-url="http://epg.streamstv.me/epg/guide-canada.xml.gz"
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-language="English" tvg-logo="https://i.imgur.com/k9M5ydW.png" group-title="",5AAB TV
 http://158.69.124.9:1935/5aabtv/5aabtv/chunklist.m3u8
