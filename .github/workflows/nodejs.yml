@@ -32,9 +32,10 @@ jobs:
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@master
 
-	    - name: Deploy to GitHub Pages
-	      uses: JamesIves/github-pages-deploy-action@master
-	      env:
+    - name: Deploy to GitHub Pages
+      uses: JamesIves/github-pages-deploy-action@master
+      	
+      env:
 	        ACCESS_TOKEN: ${{ secrets.REPO_TOKEN }}
 	        BASE_BRANCH: master
 	        BRANCH: gh-pages
