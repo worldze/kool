@@ -39,7 +39,7 @@ jobs:
 	  BASE_BRANCH: master
 	  BRANCH: gh-pages
 	  FOLDER: .gh-pages
-update-readme:
+     update-readme:
      runs-on: ubuntu-latest
      needs: deploy
      steps:
@@ -48,10 +48,10 @@ update-readme:
 	      
        - name: Install Dependencies
          run: npm install
-	
+         
        - name: Update README.md
          run: npm run update-readme
-	
+         	
        - name: Create Pull Request
          uses: peter-evans/create-pull-request@v1.5.1
          env:
